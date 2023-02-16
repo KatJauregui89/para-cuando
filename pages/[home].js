@@ -7,7 +7,7 @@ export default function Home() {
   const section = router.query.home;
   let sectionText = `Section : ${section}`
   if(section === undefined){
-    sectionText = " "
+     sectionText = " "
   }
   console.log(router)
   return (
